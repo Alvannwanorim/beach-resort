@@ -1,0 +1,38 @@
+.footer {
+  width: 100%;
+  background: rgba(25, 26, 26, 0.705);
+  padding: 10px;
+}
+
+.footer_desc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+  margin: 10px auto;
+  color: #ccc;
+  margin-top: 30px;
+}
+
+.social_icons {
+  flex: 0.5;
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.social_icons a {
+  transition: all 0.5s ease-in-out;
+}
+.social_icons a:hover {
+  transform: scale(1.5);
+  color: rgb(99, 65, 15);
+}

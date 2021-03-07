@@ -7,6 +7,7 @@ import { Route, Switch } from "react-router-dom";
 import "./App.css";
 
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <Route exact path="/rooms/:slug" component={SingleRoom} />
         <Route component={Error} />
       </Switch>
-      
+      <Footer />
     </>
   );
 }
